@@ -1,0 +1,253 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0F172A, #001d3f);
+}
+
+/* Menu */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a {
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid #3b82f6;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #3b82f6;
+}
+
+/* Título */
+
+.titulo {
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.destaque {
+    color: #3b82f6;
+}
+
+/* Imagem de Perfil */
+
+.titulo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.titulo img:hover {
+    transform: scale(1.05);
+}
+
+/* Textos */
+
+p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    border-bottom: 2px solid #3b82f6;
+    padding-bottom: 10px;
+}
+
+/* Seções */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Habilidades */
+
+.container-icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container-icones i {
+    font-size: 40px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.container-icones i:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #3b82f6;
+}
+
+i {
+    font-size: 40px;
+    margin: 30px;
+}
+
+/* Projetos */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    transition: 0.3s;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #3b82f6;
+}
+
+/* Hobbies */
+
+.hobbies {
+    padding: 0;
+}
+
+.hobbie-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hobbie-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* Contato */
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icones-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside a {
+    margin: 10px;
+    transition: 0.3s;
+}
+
+aside a:hover {
+    transform: scale(1.05);
+}
+
+/* Rodapé */
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p:hover {
+    color: #3b82f6;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+
+    nav {
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        font-size: 12px;
+        margin: 5px;
+    }
+
+    .titulo h1 {
+        font-size: 28px;
+    }
+
+    .titulo p {
+        font-size: 14px;
+    }
+
+    .titulo img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .card {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .hobbie-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hobbie-item img {
+        width: 150px;
+        height: 150px;
+    }
+
+    section {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+}
