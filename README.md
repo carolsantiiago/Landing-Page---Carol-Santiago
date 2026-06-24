@@ -1,6 +1,6 @@
-# Landing Page - Ana Caroline Santiago
+# Landing Page - Carol Santiago
 
-Projeto desenvolvido para a disciplina de Desenvolvimento Web utilizando HTML e CSS.
+Projeto desenvolvido apenas com HTML e CSS.
 
 ## Tecnologias
 - HTML5
@@ -13,5 +13,5 @@ Projeto desenvolvido para a disciplina de Desenvolvimento Web utilizando HTML e 
 - Informações extras
 - Contato
 
-## Autor
-Ana Caroline Santiago
+## Direitos
+Ana Caroline Da Silva Santiago
